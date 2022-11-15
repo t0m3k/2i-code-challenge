@@ -11,7 +11,7 @@ arrays.push([1.5, 2, 40]) // should return invalid array message
 const main = () => {
   arrays.forEach((arr) => {
     if(checkArray(arr)) {
-      console.log(countPairs(arr, 10));
+      console.log(countPairs(arr, 42));
     } else {
       console.log("Invalid array");
     }
